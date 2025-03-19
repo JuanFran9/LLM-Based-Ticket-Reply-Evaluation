@@ -29,6 +29,6 @@ Run the script in the CLI with:
 
 Run the tests in the CLI with:
 
-pytest test_evaluate_tickets_script.py 
+`pytest test_evaluate_tickets_script.py `
 
 
