@@ -1,6 +1,6 @@
 # LLM-Based-Ticket-Reply-Evaluation
 
-##Installation
+## Installation
 
 1. Clone the repository (or download the script):
 
@@ -18,7 +18,7 @@ Create a .env file in the same directory as the script.
 Add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key
 
-##Running the Script
+## Running the Script
 
 Ensure your input file (tickets.csv) is in the same directory and follows this format:
 
@@ -32,7 +32,7 @@ AI-generated response
 
 Run the script with:
 
-<<python evaluate_tickets.py>>
+`python evaluate_tickets.py`
 
 ##Error Handling
 
