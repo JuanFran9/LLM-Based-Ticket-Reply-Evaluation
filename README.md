@@ -15,6 +15,7 @@ cd <repository_directory>`
 
 `pip install openai pandas python-dotenv pytest
 `
+
 3. Set up API credentials:
 
 Create a .env file in the same directory as the script.
