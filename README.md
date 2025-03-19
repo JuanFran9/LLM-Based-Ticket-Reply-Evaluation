@@ -1,5 +1,7 @@
 # LLM-Based-Ticket-Reply-Evaluation
 
+This repository contains a Python script to evaluate AI-generated responses to customer support tickets using OpenAI's GPT-4. The script assigns scores for content relevance and formatting quality, providing explanations for each rating.
+
 ## Installation
 
 1. Clone the repository (or download the script):
