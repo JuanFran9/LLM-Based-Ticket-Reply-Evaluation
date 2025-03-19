@@ -24,13 +24,6 @@ Run the script in the CLI with:
 
 `python evaluate_tickets.py`
 
-##Error Handling
-
-Missing Data: Rows with missing ticket or reply are skipped.
-
-API Errors: If the OpenAI API fails, the script will log the issue and proceed.
-
-Rate Limits: The script waits 1 second between requests to prevent API throttling.
 
 ## Running the Tests
 
