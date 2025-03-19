@@ -113,6 +113,3 @@ def process_tickets(input_file="tickets.csv", output_file="tickets_evaluated.csv
 
 if __name__ == "__main__":
     process_tickets()
-
-# How does the eval() convert the JSON string into a dictionary? Please example
-# And this one too please: for index, row in df.iterrows():
