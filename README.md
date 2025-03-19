@@ -1,24 +1,24 @@
 # LLM-Based-Ticket-Reply-Evaluation
 
-Installation
+##Installation
 
-Clone the repository (or download the script):
+1. Clone the repository (or download the script):
 
 git clone <repository_url>
 cd <repository_directory>
 
-Install required Python libraries:
+2. Install required Python libraries or use requirements.txt:
 
 pip install openai pandas python-dotenv
 
-Set up API credentials:
+3. Set up API credentials:
 
 Create a .env file in the same directory as the script.
 
 Add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key
 
-Running the Script
+##Running the Script
 
 Ensure your input file (tickets.csv) is in the same directory and follows this format:
 
@@ -32,45 +32,9 @@ AI-generated response
 
 Run the script with:
 
-python evaluate_tickets.py
+<<python evaluate_tickets.py>>
 
-This will generate an output file tickets_evaluated.csv with additional columns:
-
-content_score (1-5)
-
-content_explanation
-
-format_score (1-5)
-
-format_explanation
-
-Example Output
-
-ticket
-
-reply
-
-content_score
-
-content_explanation
-
-format_score
-
-format_explanation
-
-"How do I reset my password?"
-
-"You can reset it in settings."
-
-4
-
-"Correct, but lacks step-by-step details."
-
-5
-
-"Clear and concise response."
-
-Error Handling
+##Error Handling
 
 Missing Data: Rows with missing ticket or reply are skipped.
 
