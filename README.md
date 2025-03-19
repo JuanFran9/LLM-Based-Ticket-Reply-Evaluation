@@ -20,17 +20,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Running the Script
 
-Ensure your input file (tickets.csv) is in the same directory and follows this format:
-
-ticket
-
-reply
-
-Customer's message
-
-AI-generated response
-
-Run the script with:
+Run the script in the CLI with:
 
 `python evaluate_tickets.py`
 
@@ -41,4 +31,11 @@ Missing Data: Rows with missing ticket or reply are skipped.
 API Errors: If the OpenAI API fails, the script will log the issue and proceed.
 
 Rate Limits: The script waits 1 second between requests to prevent API throttling.
+
+## Running the Tests
+
+Run the tests in the CLI with:
+
+pytest test_evaluate_tickets_script.py 
+
 
