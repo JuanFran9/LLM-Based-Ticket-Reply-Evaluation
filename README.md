@@ -1,22 +1,19 @@
 # LLM-Based-Ticket-Reply-Evaluation
 
-Clone the repository:
+Installation
 
-bash
-git clone https://github.com/your-username/LLM-Based-Ticket-Reply-Evaluation.git
-cd LLM-Based-Ticket-Reply-Evaluation
-Create and activate a virtual environment (recommended):
+Clone the repository (or download the script):
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-# or on Windows:
-# venv\Scripts\activate
-Install dependencies:
+git clone <repository_url>
+cd <repository_directory>
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+Install required Python libraries:
+
+pip install openai pandas python-dotenv
+
+Set up API credentials:
+
+Create a .env file in the same directory as the script.
+
+Add your OpenAI API key:
+OPENAI_API_KEY=your_openai_api_key
